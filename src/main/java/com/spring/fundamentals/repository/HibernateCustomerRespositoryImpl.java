@@ -3,8 +3,11 @@ package com.spring.fundamentals.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.spring.fundamentals.model.Customer;
 
+@Repository("customerRepository")
 public class HibernateCustomerRespositoryImpl implements CustomerRepository {
 
 	@Override
